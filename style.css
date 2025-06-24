@@ -1,0 +1,53 @@
+body {
+    background: antiquewhite;
+    margin: 30px;
+    font-family:Arial, Helvetica, sans-serif;
+    align-items: center;
+    justify-content: center;
+}
+
+form {
+    background: burlywood;
+    padding: 40px 40px;
+    border-radius: 100px;
+    box-shadow: 50px 50px 10px rgba(0, 0 , 0, 0.5);
+    width: 200%;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+
+form input[type="text"],
+form input[type="email"],
+form input[type="date"],
+form textarea {
+    width: 100%;
+    padding: 10px 12px;
+    margin-bottom: 20px;
+    border: 3px solid #fda085;
+    border-radius: 19px;
+    font-size: 1em;
+    background: wheat;
+
+}
+
+
+
+form input[type="submit"],
+form input[type="reset"] {
+    background: linear-gradient(90deg, #fda085 0%, #f6d365 100%);
+    color: #fff;
+    border: none;
+    padding: 10px 22px;
+    border-radius: 60px;
+    font-size: 1em;
+    font-weight: 600;
+    margin-right: 10px;
+    cursor: pointer;
+
+}
+
+
+
+
+
